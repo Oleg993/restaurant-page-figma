@@ -1,0 +1,147 @@
+[
+    {
+    "classId":"lunch",
+    "id":"1",
+    "title":"Burger & Fries",
+    "img":"imgs/Burger & Fries.jpg",
+    "price":"$ 20.55",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iste!"
+},
+{
+    "classId":"lunch",
+    "id":"2",
+    "title":"Craft beef burger",
+    "img":"imgs/Craft beef burger.jpg",
+    "price":"$ 17.23",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, temporibus harum dolorem distinctio libero modi nihil tempora mollitia obcaecati cumque."
+},
+{
+    "classId":"shake",
+    "id":"3",
+    "title":"Donut Ice Cream Sundae",
+    "img":"imgs/Donut Ice Cream Sundae.jpg",
+    "price":"$ 11.03",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, minima.."
+},
+{
+    "classId":"lunch",
+    "id":"4",
+    "title":"Hamburger",
+    "img":"imgs/hamburger.jpg",
+    "price":"$ 15.71",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At dolor non possimus obcaecati."
+},
+{
+    "classId":"shake",
+    "id":"5",
+    "title":"Ice Cream Cake",
+    "img":"imgs/Ice Cream Cake.jpeg",
+    "price":"$ 12.10",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis."
+},
+{
+    "classId":"breakfast",
+    "id":"6",
+    "title":"Indian Omelette",
+    "img":"imgs/Indian Omelette.jpeg",
+    "price":"$ 17.32",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam tenetur rem dignissimos qui dolorum cumque facilis nobis distinctio aliquid autem."
+},
+{
+    "classId":"shake",
+    "id":"7",
+    "title":"Mermaid Ice Cream Shake",
+    "img":"imgs/Mermaid Ice Cream Dream Shake.jpeg",
+    "price":"$ 13.78",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae suscipit molestias cupiditate est corporis incidunt."
+},
+{
+    "classId":"shake",
+    "id":"8",
+    "title":"Oreo Milkshake",
+    "img":"imgs/Oreo Milkshake.jpeg",
+    "price":"$ 14.42",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam assumenda adipisci nostrum, deserunt vero!"
+},
+{
+    "classId":"breakfast",
+    "id":"9",
+    "title":"Pancakes with bacon",
+    "img":"imgs/pancakes and bacon.jpeg",
+    "price":"$ 13.11",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iste!"
+},
+{
+    "classId":"breakfast",
+    "id":"10",
+    "title":"Pancakes with Blueberry",
+    "img":"imgs/Pancakes with Blueberry.jpg",
+    "price":"$ 18.13",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, voluptatem."
+},
+{
+    "classId":"breakfast",
+    "id":"11",
+    "title":"Pancakes with honey",
+    "img":"imgs/pancakes.jpeg",
+    "price":"$ 15.14",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate obcaecati mollitia est odit modi natus quam? Dolorem, minus."
+},
+{
+    "classId":"breakfast",
+    "id":"12",
+    "title":"Pancakes with strawberries",
+    "img":"imgs/Perfect Pancake.jpg",
+    "price":"$ 16.28",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit repellat consequuntur cumque."
+},
+{
+    "classId":"dinner",
+    "id":"13",
+    "title":"Steak Frites with Chimichurri",
+    "img":"imgs/Steak Frites with Chimichurri.jpg",
+    "price":"$ 16.19",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptas consectetur dolore eos natus!"
+},
+{
+    "classId":"shake",
+    "id":"14",
+    "title":"Vegan Peanut Butter Milkshake",
+    "img":"imgs/Vegan Peanut Butter Milkshake.jpeg",
+    "price":"$ 12.51",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, error."
+},
+{
+    "classId":"lunch",
+    "id":"15",
+    "title":"Belarusian draniki",
+    "img":"imgs/драники.jpg",
+    "price":"$ 19.00",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, earum. Ab, explicabo animi."
+},
+{
+    "classId":"dinner",
+    "id":"16",
+    "title":"Potato suns",
+    "img":"imgs/Картофельные солнца.jpg",
+    "price":"$ 21.17",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quibusdam culpa distinctio corporis! Et, alias voluptas repellat animi dolore corporis illum."
+},
+{
+    "classId":"dinner",
+    "id":"17",
+    "title":"Juicy steak",
+    "img":"imgs/Стейк Dinner.jpg",
+    "price":"$ 27.41",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias accusantium placeat enim ipsa voluptatem similique laboriosam tempore necessitatibus."
+},
+{
+    "classId":"lunch",
+    "id":"18",
+    "title":"Spinach Omelette",
+    "img":"imgs/Spinach Omelette .jpg",
+    "price":"$ 17.12",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor minus ex voluptas ratione quisquam, numquam amet."
+}
+
+]
