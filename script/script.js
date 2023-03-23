@@ -20,48 +20,48 @@ async function getPost(menuBlock) {
   let response = await fetch('./menu.json');
   let content = await response.json();
 
-  function fillList() {
-    container.insertAdjacentHTML(
-      'afterbegin',
-      `
- <div id="${content[key].classId}" class="post">
-     <img src="${content[key].img}" alt="" />
-   <div class="post-text">
-     <div class="post-header">
-       <a href="">${content[key].title}</a>
-       <p>${content[key].price}</p>
-     </div>
-       <p class="text">${content[key].description} </p>
-   </div>
- </div>
- `
-    );
+  let template = '';
+
+  function addMenu(classId) {
+    const contentArray = Array.prototype.slice.call(content);
+    contentArray.forEach((element) => {
+      function fTemplate() {
+        template += `   
+      <div id="${classId}" class="post">
+          <img src="${element.img}" alt="" />
+            <div class="post-text">
+            <div class="post-header">
+          <a href="">${element.title}</a>
+          <p>${element.price}</p>
+            </div>
+          <p class="text">${element.description} </p>
+            </div>
+      </div>`;
+      }
+      if (!classId) {
+        fTemplate();
+      }
+      if (element.classId === classId) {
+        fTemplate();
+      }
+    });
+    return container.insertAdjacentHTML('afterbegin', template);
   }
 
   clearMenu();
   if (menuBlock === 1) {
-    for (key in content) {
-      fillList();
-    }
+    addMenu();
   }
   if (menuBlock === 2) {
-    for (key in content) {
-      if (content[key]['classId'] === 'breakfast') fillList();
-    }
+    addMenu('breakfast');
   }
   if (menuBlock === 3) {
-    for (key in content) {
-      if (content[key]['classId'] === 'lunch') fillList();
-    }
+    addMenu('lunch');
   }
   if (menuBlock === 4) {
-    for (key in content) {
-      if (content[key]['classId'] === 'shake') fillList();
-    }
+    addMenu('shake');
   }
   if (menuBlock === 5) {
-    for (key in content) {
-      if (content[key]['classId'] === 'dinner') fillList();
-    }
+    addMenu('dinner');
   }
 }
